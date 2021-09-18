@@ -55,7 +55,6 @@ const App = () => {
         
         setCompletedWords((prev)=> [...prev, word]);
 
-
       }
     }, [word, validKeys, completedWords])
 
