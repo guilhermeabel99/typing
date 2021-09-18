@@ -56,14 +56,11 @@ const App = () => {
       };
 
       console.log('key', key);
-      
       // setTypedKeys((prev) => [...prev, key].slice(MAX_TYPED_KEYS * -1));
-  
       
 
     };
       
-    
 
   return (
     <div className="container" tabIndex="0" onKeyDown={handleKeyDown}>
